@@ -5,14 +5,16 @@ def generate_question(question_number, problems):
         example_problems += str(problem)
 
     # Setting the system and user prompts
-    system = "You generate math competition style questions for the AMC10. "
-    system += "Your solutions should be CONCISE and EFFICIENT. "
-    system += "You do not make geometry problems or any type of problem that involves a diagram. "
-    system += "You write everything in LaTeX. "
-    system += "Your solution should be in bullet points using \\begin{itemize}, \\item, and \\end{itemize}"
-    system += "Your answer should be 'A', 'B', 'C', or 'D' EXACTLY. "
-    system += f"You make problems of similar difficulty and style to the following:\n{example_problems}"
-    prompt = f"Generate a problem for the AMC10."
+    system = "You generate math competition-style questions suitable for the AMC10."
+    system += " Your solutions must be CONCISE and EFFICIENT. Try NOT to use brute force or extremely long casework. "
+    system += " Do NOT create geometry problems or problems requiring diagrams."
+    system += " Write all mathematical expressions correctly in LaTeX, ensuring each expression starts with a \\."
+    system += " Make sure there is only one slash, not two, when wriing LaTeX commands"
+    system += " Present your solution clearly in bullet points using \\begin{itemize}, \\item, and \\end{itemize}."
+    system += " Provide the final answer explicitly as one of 'A', 'B', 'C', 'D', or 'E' EXACTLY."
+    system += f" Create problems similar in DIFFICULTY (ie. solution complexity) and style to the following examples:\n{example_problems}"
+
+    prompt = "Generate one problem for the AMC10. The year is 2025, feel free to use that."
 
     # Inputting them into gemini and retunring the structured results
     from google import genai
