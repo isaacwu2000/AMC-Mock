@@ -1,22 +1,3 @@
-def general_gemini(prompt = "", system = "", temp = 1):
-    from google import genai
-    from google.genai import types
-    from dotenv import load_dotenv
-    import os
-    load_dotenv()
-
-    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-
-    response = client.models.generate_content(
-        model="gemini-2.5-pro-exp-03-25", 
-        config= types.GenerateContentConfig(
-            system_instruction = system,
-            temperature=temp
-        ),
-        contents=prompt
-    )
-    return response.text
-
 def generate_question(question_number, problems):
     # Getting the example problems in the bucket
     example_problems = ""
@@ -27,7 +8,8 @@ def generate_question(question_number, problems):
     system = "You generate math competition style questions for the AMC10. "
     system += "Your solutions should be CONCISE and EFFICIENT. "
     system += "You do not make geometry problems or any type of problem that involves a diagram. "
-    system += "You write everything in LaTex. "
+    system += "You write everything in LaTeX. "
+    system += "Your solution should be in bullet points using \\begin{itemize}, \\item, and \\end{itemize}"
     system += "Your answer should be 'A', 'B', 'C', or 'D' EXACTLY. "
     system += f"You make problems of similar difficulty and style to the following:\n{example_problems}"
     prompt = f"Generate a problem for the AMC10."
