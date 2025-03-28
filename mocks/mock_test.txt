@@ -1,0 +1,30 @@
+\section{Problems}
+\subsection{Problem 1}:
+What is the remainder when the sum $1! + 2! + 3! + \dots + 100!$ is divided by 12?
+(A) 1 (B) 3 (C) 7 (D) 9 (E) 11
+
+\subsection{Problem 2}:
+Let $N$ be a three-digit positive integer $ABC$, where $A$, $B$, and $C$ are its digits. The sum of the digits of $N$ is $15$. If the digits are reversed to form a new integer $CBA$, the new integer is $396$ less than the original integer $N$. The hundreds digit $A$ is one less than the tens digit $B$. What is the sum of the tens digit and the units digit, $B+C$?
+(A) 7 (B) 8 (C) 9 (D) 10 (E) 11
+
+\section{Answer Key}
+1. D
+2. C
+
+\section{Solutions}
+\subsection{Problem 1:}
+We want to compute $S = \sum_{n=1}^{100} n! \pmod{12}$. We compute the first few terms modulo 12:
+$1! = 1 \equiv 1 \pmod{12}$
+$2! = 2 \equiv 2 \pmod{12}$
+$3! = 6 \equiv 6 \pmod{12}$
+$4! = 24 \equiv 0 \pmod{12}$
+For any integer $n \ge 4$, $n!$ contains the factors 3 and 4. Since $3 \times 4 = 12$, $n!$ is divisible by 12 for $n \ge 4$. Therefore, $n! \equiv 0 \pmod{12}$ for all $n \ge 4$.
+Thus, the sum is
+$S = 1! + 2! + 3! + 4! + \dots + 100! \equiv 1! + 2! + 3! + 0 + \dots + 0 \pmod{12}$
+$S \equiv 1 + 2 + 6 \pmod{12}$
+$S \equiv 9 \pmod{12}$
+The remainder is 9.
+
+\subsection{Problem 2:}
+Let the three-digit number be $N = 100A + 10B + C$. The given conditions translate to the equations: $A + B + C = 15$, $(100A + 10B + C) - (100C + 10B + A) = 396$, and $A = B - 1$. The second equation simplifies to $99A - 99C = 396$, or $A - C = 4$. From $A = B - 1$, we have $B = A + 1$. Substituting this into the first equation gives $A + (A+1) + C = 15$, which simplifies to $2A + C = 14$. Now we solve the system: $A - C = 4$ and $2A + C = 14$. Adding the two equations yields $3A = 18$, so $A=6$. Substituting $A=6$ into $A - C = 4$ gives $6 - C = 4$, so $C=2$. Substituting $A=6$ into $B = A+1$ gives $B = 7$. The digits are $A=6, B=7, C=2$. The question asks for $B+C$. $B+C = 7 + 2 = 9$.
+
