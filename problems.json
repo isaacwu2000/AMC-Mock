@@ -124,28 +124,6 @@
           ]
         },
         {
-          "number": 13,
-          "problem": "Two transformations are said to commute if applying the first followed by the second gives the same result as applying the second followed by the first. Consider these four transformations of the coordinate plane: a translation $2$ units to the right, a $90^{\\circ}$-rotation counterclockwise about the origin, a reflection across the $x$-axis, and a dilation centered at the origin with scale factor $2$. Of the $6$ pairs of distinct transformations from this list, how many commute?",
-          "choices": [
-            "(A) 1",
-            "(B) 2",
-            "(C) 3",
-            "(D) 4",
-            "(E) 5"
-          ]
-        },
-        {
-          "number": 14,
-          "problem": "One side of an equilateral triangle of height $24$ lies on line $\\ell$. A circle of radius $12$ is tangent to line $\\ell$ and is externally tangent to the triangle. The area of the region exterior to the triangle and the circle and bounded by the triangle, the circle, and line $\\ell$ can be written as $a \\sqrt{b} - c \\pi$, where $a$, $b$, and $c$ are positive integers and $b$ is not divisible by the square of any prime. What is $a + b + c$?",
-          "choices": [
-            "(A) 72",
-            "(B) 73",
-            "(C) 74",
-            "(D) 75",
-            "(E) 76"
-          ]
-        },
-        {
           "number": 15,
           "problem": "Let $M$ be the greatest integer such that both $M+1213$ and $M+3773$ are perfect squares. What is the units digit of $M$?",
           "choices": [
@@ -221,17 +199,6 @@
             "(D) 276",
             "(E) 284"
           ]
-        },
-        {
-          "number": 24,
-          "problem": "A bee is moving in three-dimensional space. A fair six-sided die with faces labeled $A^+, A^-, B^+, B^-, C^+, C^-$ is rolled. Suppose the bee occupies the point $(a,b,c)$. If the die shows $A^+$, then the bee moves to the point $(a+1,b,c)$ and if the die shows $A^-$, then the bee moves to the point $(a-1,b,c)$. Analogous moves are made with the other four outcomes. Suppose the bee starts at the point $(0,0,0)$ and the die is rolled four times. What is the probability that the bee traverses four distinct edges of some unit cube?",
-          "choices": [
-            "(A) 1/54",
-            "(B) 7/54",
-            "(C) 1/6",
-            "(D) 5/18",
-            "(E) 2/5"
-          ]
         }
       ]
     },
@@ -291,17 +258,6 @@
             "(C) 16",
             "(D) 17",
             "(E) 18"
-          ]
-        },
-        {
-          "number": 6,
-          "problem": "A rectangle has integer side lengths and an area of $2024$. What is the least possible perimeter of the rectangle?",
-          "choices": [
-            "(A) 160",
-            "(B) 180",
-            "(C) 222",
-            "(D) 228",
-            "(E) 390"
           ]
         },
         {
@@ -486,17 +442,6 @@
           ]
         },
         {
-          "number": 4,
-          "problem": "A quadrilateral has all integer side lengths, a perimeter of $26$, and one side of length $4$. What is the greatest possible length of one side of this quadrilateral?",
-          "choices": [
-            "(A) 9",
-            "(B) 10",
-            "(C) 11",
-            "(D) 12",
-            "(E) 13"
-          ]
-        },
-        {
           "number": 5,
           "problem": "How many digits are in the base-ten representation of $8^5 \\cdot 5^{10} \\cdot 15^5$?",
           "choices": [
@@ -505,17 +450,6 @@
             "(C) 16",
             "(D) 17",
             "(E) 18"
-          ]
-        },
-        {
-          "number": 6,
-          "problem": "An integer is assigned to each vertex of a cube. The value of an edge is defined as the sum of the values of the two vertices it touches, and the value of a face is defined as the sum of the values of the four edges surrounding it. The value of the cube is the sum of the values of its six faces. If the sum of the integers on the vertices is $21$, what is the value of the cube?",
-          "choices": [
-            "(A) 42",
-            "(B) 63",
-            "(C) 84",
-            "(D) 126",
-            "(E) 252"
           ]
         },
         {
@@ -563,7 +497,7 @@
           ]
         },
         {
-          "number": 12,
+          "number": 11,
           "problem": "How many 3-digit positive integers $N$ satisfy both: $N$ divisible by $7$, and the reversal of $N$ is divisible by $5$?",
           "choices": [
             "(A) 13",
@@ -574,14 +508,14 @@
           ]
         },
         {
-          "number": 13,
-          "problem": "Abdul and Chiang stand $48$ feet apart. Bharat is placed so that the angle between his sightlines to Abdul and Chiang is $60^\\circ$. What is the square of the distance between Abdul and Bharat?",
+          "number": 12,
+          "problem": "How many 3-digit positive integers $N$ satisfy both: $N$ divisible by $7$, and the reversal of $N$ is divisible by $5$?",
           "choices": [
-            "(A) 1728",
-            "(B) 2601",
-            "(C) 3072",
-            "(D) 4608",
-            "(E) 6912"
+            "(A) 13",
+            "(B) 14",
+            "(C) 15",
+            "(D) 16",
+            "(E) 17"
           ]
         },
         {
@@ -607,25 +541,14 @@
           ]
         },
         {
-          "number": 18,
-          "problem": "A rhombic dodecahedron has $12$ rhombus faces. At each vertex, either $3$ or $4$ edges meet. How many vertices have exactly $3$ edges meet?",
+          "number": 20,
+          "problem": "Let $P(x)$ be a polynomial of minimal degree such that:\n$P(x) - 1$ has root $1$,\n$P(x-2)$ has root $2$,\n$P(3x)$ has root $3$,\n$4P(x)$ has root $4$.\nAll roots but one are integers. The non-integer root is $\\frac{m}{n}$ in lowest terms. What is $m + n$?",
           "choices": [
-            "(A) 5",
-            "(B) 6",
-            "(C) 7",
-            "(D) 8",
-            "(E) 9"
-          ]
-        },
-        {
-          "number": 19,
-          "problem": "The segment $AB$ from $(1,2)$ to $(3,3)$ is rotated to $A'(3,1)$ and $B'(4,3)$ about point $P(r, s)$. What is $|r - s|$?",
-          "choices": [
-            "(A) 1/4",
-            "(B) 1/2",
-            "(C) 3/4",
-            "(D) 2/3",
-            "(E) 1"
+            "(A) 41",
+            "(B) 43",
+            "(C) 45",
+            "(D) 47",
+            "(E) 49"
           ]
         },
         {
@@ -648,17 +571,6 @@
             "(C) 15",
             "(D) 17",
             "(E) 19"
-          ]
-        },
-        {
-          "number": 25,
-          "problem": "Q, R, and S are distinct vertices of a regular icosahedron. What is the probability that the distance from $Q$ to $R$ is greater than the distance from $R$ to $S$?",
-          "choices": [
-            "(A) 7/22",
-            "(B) 1/3",
-            "(C) 3/8",
-            "(D) 5/12",
-            "(E) 1/2"
           ]
         }
       ]
@@ -686,28 +598,6 @@
             "(C) 48",
             "(D) 47",
             "(E) 49"
-          ]
-        },
-        {
-          "number": 3,
-          "problem": "A $3$-$4$-$5$ right triangle is inscribed in circle A, and a $5$-$12$-$13$ right triangle is inscribed in circle B. What is the ratio of the area of circle A to the area of circle B?",
-          "choices": [
-            "(A) 9/25",
-            "(B) 1/9",
-            "(C) 1/5",
-            "(D) 25/169",
-            "(E) 4/25"
-          ]
-        },
-        {
-          "number": 4,
-          "problem": "Jackson's paintbrush makes a narrow strip with a width of $6.5$ millimeters. Jackson has enough paint to make a strip $25$ meters long. How many square centimeters of paper could Jackson cover with paint?",
-          "choices": [
-            "(A) 162,500",
-            "(B) 162.5",
-            "(C) 1,625",
-            "(D) 1,625,000",
-            "(E) 16,250"
           ]
         },
         {
@@ -755,17 +645,6 @@
           ]
         },
         {
-          "number": 10,
-          "problem": "You are playing a game. A $2\\times1$ rectangle covers two adjacent squares (oriented either horizontally or vertically) of a $3\\times3$ grid of squares, but you are not told which two squares are covered. Your goal is to find at least one square that is covered by the rectangle. A 'turn' consists of you guessing a square, after which you are told whether that square is covered by the hidden rectangle. What is the minimum number of turns you need to ensure that at least one of your guessed squares is covered by the rectangle?",
-          "choices": [
-            "(A) 3",
-            "(B) 5",
-            "(C) 4",
-            "(D) 8",
-            "(E) 6"
-          ]
-        },
-        {
           "number": 11,
           "problem": "Suzanne withdrew $800$ from the bank. The teller gave her this amount using $20$ bills, $50$ bills, and $100$ bills, with at least one of each denomination. How many different collections of bills could Suzanne have received?",
           "choices": [
@@ -785,17 +664,6 @@
             "(C) 6",
             "(D) 4",
             "(E) 5"
-          ]
-        },
-        {
-          "number": 13,
-          "problem": "What is the area of the region in the coordinate plane defined by $||x|-1| + ||y|-1| \\leq 1$?",
-          "choices": [
-            "(A) 2",
-            "(B) 8",
-            "(C) 4",
-            "(D) 15",
-            "(E) 12"
           ]
         },
         {
@@ -832,17 +700,6 @@
           ]
         },
         {
-          "number": 17,
-          "problem": "A rectangular box $P$ has distinct edge lengths $a$, $b$, and $c$. The sum of the lengths of all $12$ edges is $13$, the sum of the areas of all $6$ faces is $\\frac{11}{2}$, and the volume is $\\frac{1}{2}$. What is the length of the longest interior diagonal?",
-          "choices": [
-            "(A) 2",
-            "(B) 3/8",
-            "(C) 9/8",
-            "(D) 9/4",
-            "(E) 3/2"
-          ]
-        },
-        {
           "number": 18,
           "problem": "Suppose $a$, $b$, and $c$ are positive integers such that $\\frac{a}{14} + \\frac{b}{15} = \\frac{c}{210}$. Which of the following statements are necessarily true?\\nI. If $\\gcd(a,14)=1$ or $\\gcd(b,15)=1$ or both, then $\\gcd(c,210)=1$.\\nII. If $\\gcd(c,210)=1$, then $\\gcd(a,14)=1$ or $\\gcd(b,15)=1$ or both.\\nIII. $\\gcd(c,210)=1$ if and only if $\\gcd(a,14)=\\gcd(b,15)=1$.",
           "choices": [
@@ -851,17 +708,6 @@
             "(C) I and II only",
             "(D) III only",
             "(E) II and III only"
-          ]
-        },
-        {
-          "number": 19,
-          "problem": "Sonya the frog hops to a point uniformly at random in the square $[0,6]\\times[0,6]$. She then hops in a random direction (N/S/E/W) by a random distance from $[0,1]$. What is the probability she lands outside the square?",
-          "choices": [
-            "(A) 1/6",
-            "(B) 1/12",
-            "(C) 1/4",
-            "(D) 1/10",
-            "(E) 1/9"
           ]
         },
         {
@@ -895,28 +741,6 @@
             "(C) 22",
             "(D) 28",
             "(E) 26"
-          ]
-        },
-        {
-          "number": 24,
-          "problem": "What is the perimeter of the boundary of the region consisting of all points $(2u-3w, v+4w)$ with $0 \\leq u \\leq 1$, $0 \\leq v \\leq 1$, $0 \\leq w \\leq 1$?",
-          "choices": [
-            "(A) 10√3",
-            "(B) 13",
-            "(C) 12",
-            "(D) 18",
-            "(E) 16"
-          ]
-        },
-        {
-          "number": 25,
-          "problem": "A regular pentagon with area $1 + √5$ is printed on paper. All five vertices are folded to the center, forming a smaller pentagon. What is the area of the new pentagon?",
-          "choices": [
-            "(A) 4−√5",
-            "(B) √5−1",
-            "(C) 8−3√5",
-            "(D) (√5+1)/2",
-            "(E) (2+√5)/3"
           ]
         }
       ]
@@ -1035,17 +859,6 @@
           ]
         },
         {
-          "number": 16,
-          "problem": "The roots of the polynomial $10x^3 - 39x^2 + 29x - 6$ are the height, length, and width of a rectangular box (right rectangular prism). A new rectangular box is formed by lengthening each edge of the original box by $2$ units. What is the volume of the new box?",
-          "choices": [
-            "(A) 24/5",
-            "(B) 42/5",
-            "(C) 81/5",
-            "(D) 30",
-            "(E) 48"
-          ]
-        },
-        {
           "number": 17,
           "problem": "How many three-digit positive integers $abc$ are there whose nonzero digits $a$, $b$, and $c$ satisfy $$0.abcabc\\dots = \\frac{1}{3}(0.a+0.b+0.c)?$$",
           "choices": [
@@ -1054,17 +867,6 @@
             "(C) 11",
             "(D) 13",
             "(E) 14"
-          ]
-        },
-        {
-          "number": 18,
-          "problem": "Let $T_k$ be the transformation of the coordinate plane that first rotates the plane $k$ degrees counterclockwise around the origin and then reflects the plane across the $y$-axis. What is the least positive integer $n$ such that performing the sequence of transformations $T_1, T_2, T_3,\\dots,T_n$ returns the point $(1, 0)$ back to itself?",
-          "choices": [
-            "(A) 359",
-            "(B) 360",
-            "(C) 719",
-            "(D) 720",
-            "(E) 721"
           ]
         },
         {
@@ -1103,7 +905,7 @@
       ]
     },
     {
-      "test": "AMC10A_2023",
+      "test": "AMC10B_2022",
       "problems": [
         {
           "number": 1,
@@ -1151,7 +953,7 @@
         },
         {
           "number": 6,
-          "problem": "How many of the first ten numbers of the sequence $121$, $11211$, $1112111$, $\\dots$ are prime numbers?",
+          "problem": "How many of the first ten numbers of the sequence $121$, $11211$, $111211$, $\\dots$ are prime numbers?",
           "choices": [
             "(A) 0",
             "(B) 1",
