@@ -1,0 +1,1331 @@
+[
+    {
+      "test": "AMC10A_2024",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "What is the value of $9901 \\cdot 101 - 99 \\cdot 10101$?",
+          "choices": [
+            "(A) 2",
+            "(B) 20",
+            "(C) 200",
+            "(D) 202",
+            "(E) 2020"
+          ]
+        },
+        {
+          "number": 2,
+          "problem": "A model used to estimate the time it will take to hike to the top of the mountain on a trail is of the form $T = aL + bG$, where $a$ and $b$ are constants, $T$ is the time in minutes, $L$ is the length of the trail in miles, and $G$ is the altitude gain in feet. The model estimates that it will take $69$ minutes to hike to the top if a trail is $1.5$ miles long and ascends $800$ feet, as well as if a trail is $1.2$ miles long and ascends $1100$ feet. How many minutes does the model estimate it will take to hike to the top if the trail is $4.2$ miles long and ascends $4000$ feet?",
+          "choices": [
+            "(A) 240",
+            "(B) 246",
+            "(C) 252",
+            "(D) 258",
+            "(E) 264"
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "What is the sum of the digits of the smallest prime that can be written as a sum of $5$ distinct primes?",
+          "choices": [
+            "(A) 5",
+            "(B) 7",
+            "(C) 8",
+            "(D) 10",
+            "(E) 13"
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "The number $2024$ is written as the sum of not necessarily distinct two-digit numbers. What is the least number of two-digit numbers needed to write this sum?",
+          "choices": [
+            "(A) 20",
+            "(B) 21",
+            "(C) 22",
+            "(D) 23",
+            "(E) 24"
+          ]
+        },
+        {
+          "number": 5,
+          "problem": "What is the least value of $n$ such that $n!$ is a multiple of $2024$?",
+          "choices": [
+            "(A) 11",
+            "(B) 21",
+            "(C) 22",
+            "(D) 23",
+            "(E) 253"
+          ]
+        },
+        {
+          "number": 6,
+          "problem": "What is the minimum number of successive swaps of adjacent letters in the string $ABCDEF$ that are needed to change the string to $FEDCBA$?",
+          "choices": [
+            "(A) 6",
+            "(B) 10",
+            "(C) 12",
+            "(D) 15",
+            "(E) 24"
+          ]
+        },
+        {
+          "number": 7,
+          "problem": "The product of three integers is $60$. What is the least possible positive sum of the three integers?",
+          "choices": [
+            "(A) 2",
+            "(B) 3",
+            "(C) 5",
+            "(D) 6",
+            "(E) 13"
+          ]
+        },
+        {
+          "number": 8,
+          "problem": "Amy, Bomani, Charlie, and Daria work in a chocolate factory. On Monday Amy, Bomani, and Charlie started working at $1\\text{:}00$ PM and were able to pack $4$, $3$, and $3$ packages, respectively, every $3$ minutes. At some later time, Daria joined the group, and Daria was able to pack $5$ packages every $4$ minutes. Together, they finished packing $450$ packages at exactly $2\\text{:}45$ PM. At what time did Daria join the group?",
+          "choices": [
+            "(A) 1:25 PM",
+            "(B) 1:35 PM",
+            "(C) 1:45 PM",
+            "(D) 1:55 PM",
+            "(E) 2:05 PM"
+          ]
+        },
+        {
+          "number": 9,
+          "problem": "In how many ways can $6$ juniors and $6$ seniors form $3$ disjoint teams of $4$ people so that each team has $2$ juniors and $2$ seniors?",
+          "choices": [
+            "(A) 720",
+            "(B) 1350",
+            "(C) 2700",
+            "(D) 3280",
+            "(E) 8100"
+          ]
+        },
+        {
+          "number": 10,
+          "problem": "Consider the following operation. Given a positive integer $n$, if $n$ is a multiple of $3$, then you replace $n$ by $\\frac{n}{3}$. If $n$ is not a multiple of $3$, then you replace $n$ by $n+10$. Suppose you start with $n=100$. What value results if you perform this operation exactly $100$ times?",
+          "choices": [
+            "(A) 10",
+            "(B) 20",
+            "(C) 30",
+            "(D) 40",
+            "(E) 50"
+          ]
+        },
+        {
+          "number": 11,
+          "problem": "How many ordered pairs of integers $(m, n)$ satisfy $\\sqrt{n^2 - 49} = m$?",
+          "choices": [
+            "(A) 1",
+            "(B) 2",
+            "(C) 3",
+            "(D) 4",
+            "(E) infinitely many"
+          ]
+        },
+        {
+          "number": 13,
+          "problem": "Two transformations are said to commute if applying the first followed by the second gives the same result as applying the second followed by the first. Consider these four transformations of the coordinate plane: a translation $2$ units to the right, a $90^{\\circ}$-rotation counterclockwise about the origin, a reflection across the $x$-axis, and a dilation centered at the origin with scale factor $2$. Of the $6$ pairs of distinct transformations from this list, how many commute?",
+          "choices": [
+            "(A) 1",
+            "(B) 2",
+            "(C) 3",
+            "(D) 4",
+            "(E) 5"
+          ]
+        },
+        {
+          "number": 14,
+          "problem": "One side of an equilateral triangle of height $24$ lies on line $\\ell$. A circle of radius $12$ is tangent to line $\\ell$ and is externally tangent to the triangle. The area of the region exterior to the triangle and the circle and bounded by the triangle, the circle, and line $\\ell$ can be written as $a \\sqrt{b} - c \\pi$, where $a$, $b$, and $c$ are positive integers and $b$ is not divisible by the square of any prime. What is $a + b + c$?",
+          "choices": [
+            "(A) 72",
+            "(B) 73",
+            "(C) 74",
+            "(D) 75",
+            "(E) 76"
+          ]
+        },
+        {
+          "number": 15,
+          "problem": "Let $M$ be the greatest integer such that both $M+1213$ and $M+3773$ are perfect squares. What is the units digit of $M$?",
+          "choices": [
+            "(A) 1",
+            "(B) 2",
+            "(C) 3",
+            "(D) 6",
+            "(E) 8"
+          ]
+        },
+        {
+          "number": 17,
+          "problem": "Two teams are in a best-two-out-of-three playoff: the teams will play at most $3$ games, and the winner of the playoff is the first team to win $2$ games. The first game is played on Team A's home field, and the remaining games are played on Team B's home field. Team A has a $\\frac{2}{3}$ chance of winning at home, and its probability of winning when playing away from home is $p$. Outcomes of the games are independent. The probability that Team A wins the playoff is $\\frac{1}{2}$. Then $p$ can be written in the form $\\frac{1}{2}(m - \\sqrt{n})$, where $m$ and $n$ are positive integers. What is $m+n$?",
+          "choices": [
+            "(A) 10",
+            "(B) 11",
+            "(C) 12",
+            "(D) 13",
+            "(E) 14"
+          ]
+        },
+        {
+          "number": 18,
+          "problem": "There are exactly $K$ positive integers $5 \\leq b \\leq 2024$ such that the base-$b$ integer $2024_{b}$ is divisible by $16$ (where $16$ is in base ten). What is the sum of the digits of $K$?",
+          "choices": [
+            "(A) 16",
+            "(B) 17",
+            "(C) 18",
+            "(D) 20",
+            "(E) 21"
+          ]
+        },
+        {
+          "number": 19,
+          "problem": "The first three terms of a geometric sequence are the integers $a, 720$ and $b$, where $a < 720 < b$. What is the sum of the digits of the least possible value of $b$?",
+          "choices": [
+            "(A) 9",
+            "(B) 12",
+            "(C) 16",
+            "(D) 18",
+            "(E) 21"
+          ]
+        },
+        {
+          "number": 20,
+          "problem": "Let $S$ be a subset of $\\{1, 2, 3, \\dots, 2024\\}$ such that the following two conditions hold:\n\nIf $x$ and $y$ are distinct elements of $S$, then $|x - y| > 2.$\nIf $x$ and $y$ are distinct odd elements of $S$, then $|x - y| > 6.$\n\nWhat is the maximum possible number of elements in $S$?",
+          "choices": [
+            "(A) 436",
+            "(B) 506",
+            "(C) 608",
+            "(D) 654",
+            "(E) 675"
+          ]
+        },
+        {
+          "number": 21,
+          "problem": "The numbers, in order, of each row and the numbers, in order, of each column of a $5 \\times 5$ array of integers form an arithmetic progression of length $5$. The numbers in positions $(5,5)$, $(2,4)$, $(4,3)$ and $(3,1)$ are $0$, $48$, $16$, and $12$, respectively. What number is in position $(1,2)$?",
+          "choices": [
+            "(A) 19",
+            "(B) 24",
+            "(C) 29",
+            "(D) 34",
+            "(E) 39"
+          ]
+        },
+        {
+          "number": 23,
+          "problem": "Integers $a$, $b$, and $c$ satisfy $ab + c = 100$, $bc + a = 87$, and $ca + b = 60$. What is $ab + bc + ca$?",
+          "choices": [
+            "(A) 212",
+            "(B) 247",
+            "(C) 258",
+            "(D) 276",
+            "(E) 284"
+          ]
+        },
+        {
+          "number": 24,
+          "problem": "A bee is moving in three-dimensional space. A fair six-sided die with faces labeled $A^+, A^-, B^+, B^-, C^+, C^-$ is rolled. Suppose the bee occupies the point $(a,b,c)$. If the die shows $A^+$, then the bee moves to the point $(a+1,b,c)$ and if the die shows $A^-$, then the bee moves to the point $(a-1,b,c)$. Analogous moves are made with the other four outcomes. Suppose the bee starts at the point $(0,0,0)$ and the die is rolled four times. What is the probability that the bee traverses four distinct edges of some unit cube?",
+          "choices": [
+            "(A) 1/54",
+            "(B) 7/54",
+            "(C) 1/6",
+            "(D) 5/18",
+            "(E) 2/5"
+          ]
+        }
+      ]
+    },
+    {
+      "test": "AMC10B_2024",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "In a long line of people arranged left to right, the 1013th person from the left is also the 1010th person from the right. How many people are in the line?",
+          "choices": [
+            "(A) 2021",
+            "(B) 2022",
+            "(C) 2023",
+            "(D) 2024",
+            "(E) 2025"
+          ]
+        },
+        {
+          "number": 2,
+          "problem": "What is $10! - 7! \\cdot 6!$ ?",
+          "choices": [
+            "(A) -120",
+            "(B) 0",
+            "(C) 120",
+            "(D) 600",
+            "(E) 720"
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "For how many integer values of $x$ is $|2x| \\leq 7\\pi$?",
+          "choices": [
+            "(A) 16",
+            "(B) 17",
+            "(C) 19",
+            "(D) 20",
+            "(E) 21"
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "Balls numbered 1, 2, 3, ... are deposited in 5 bins, labeled A, B, C, D, and E using a cyclical procedure. In which bin is ball 2024 deposited?",
+          "choices": [
+            "(A) A",
+            "(B) B",
+            "(C) C",
+            "(D) D",
+            "(E) E"
+          ]
+        },
+        {
+          "number": 5,
+          "problem": "In the expression $1+3+5+\\dots+99$, Melanie changed some plus signs to minus signs. The result was negative. What is the least number of plus signs she could have changed?",
+          "choices": [
+            "(A) 14",
+            "(B) 15",
+            "(C) 16",
+            "(D) 17",
+            "(E) 18"
+          ]
+        },
+        {
+          "number": 6,
+          "problem": "A rectangle has integer side lengths and an area of $2024$. What is the least possible perimeter of the rectangle?",
+          "choices": [
+            "(A) 160",
+            "(B) 180",
+            "(C) 222",
+            "(D) 228",
+            "(E) 390"
+          ]
+        },
+        {
+          "number": 7,
+          "problem": "What is the remainder when $7^{2024} + 7^{2025} + 7^{2026}$ is divided by $19$?",
+          "choices": [
+            "(A) 0",
+            "(B) 1",
+            "(C) 7",
+            "(D) 11",
+            "(E) 18"
+          ]
+        },
+        {
+          "number": 8,
+          "problem": "Let $N$ be the product of all the positive integer divisors of $42$. What is the units digit of $N$?",
+          "choices": [
+            "(A) 0",
+            "(B) 2",
+            "(C) 4",
+            "(D) 6",
+            "(E) 8"
+          ]
+        },
+        {
+          "number": 9,
+          "problem": "Real numbers $a$, $b$, and $c$ have arithmetic mean $0$. The arithmetic mean of $a^2$, $b^2$, and $c^2$ is $10$. What is the arithmetic mean of $ab$, $ac$, and $bc$?",
+          "choices": [
+            "(A) -5",
+            "(B) -10/3",
+            "(C) -10/9",
+            "(D) 0",
+            "(E) 10/9"
+          ]
+        },
+        {
+          "number": 12,
+          "problem": "A group of 100 students from different countries meet at a mathematics competition. Each student speaks the same number of languages, and for every pair of students A and B, student A speaks some language that student B does not speak, and student B speaks some language that student A does not speak. What is the least possible total number of languages spoken by all the students?",
+          "choices": [
+            "(A) 9",
+            "(B) 10",
+            "(C) 12",
+            "(D) 51",
+            "(E) 100"
+          ]
+        },
+        {
+          "number": 13,
+          "problem": "Positive integers $x$ and $y$ satisfy the equation $\\sqrt{x} + \\sqrt{y} = \\sqrt{1183}$. What is the minimum possible value of $x + y$?",
+          "choices": [
+            "(A) 585",
+            "(B) 595",
+            "(C) 623",
+            "(D) 700",
+            "(E) 791"
+          ]
+        },
+        {
+          "number": 15,
+          "problem": "A list of 9 real numbers consists of $1$, $2.2$, $3.2$, $5.2$, $6.2$, and $7$, as well as $x$, $y$, and $z$ with $x \\leq y \\leq z$. The range of the list is $7$, and the mean and the median are both positive integers. How many ordered triples $(x, y, z)$ are possible?",
+          "choices": [
+            "(A) 1",
+            "(B) 2",
+            "(C) 3",
+            "(D) 4",
+            "(E) infinitely many"
+          ]
+        },
+        {
+          "number": 16,
+          "problem": "Jerry wrote all the integers from $1$ to $2024$ on the whiteboard. He repeatedly chose four numbers, erased them, and replaced them by either their sum or their product. After many steps, all the remaining numbers on the board were odd. What is the maximum possible number of integers remaining?",
+          "choices": [
+            "(A) 1010",
+            "(B) 1011",
+            "(C) 1012",
+            "(D) 1013",
+            "(E) 1014"
+          ]
+        },
+        {
+          "number": 17,
+          "problem": "In a race among $5$ snails, there is at most one tie, but that tie can involve any number of snails. How many different results of the race are possible?",
+          "choices": [
+            "(A) 180",
+            "(B) 361",
+            "(C) 420",
+            "(D) 431",
+            "(E) 720"
+          ]
+        },
+        {
+          "number": 18,
+          "problem": "How many different remainders can result when the $100$th power of an integer is divided by $125$?",
+          "choices": [
+            "(A) 1",
+            "(B) 2",
+            "(C) 5",
+            "(D) 25",
+            "(E) 125"
+          ]
+        },
+        {
+          "number": 20,
+          "problem": "Three different pairs of shoes are placed in a row so that no left shoe is next to a right shoe from a different pair. In how many ways can these six shoes be lined up?",
+          "choices": [
+            "(A) 60",
+            "(B) 72",
+            "(C) 90",
+            "(D) 108",
+            "(E) 120"
+          ]
+        },
+        {
+          "number": 22,
+          "problem": "A group of 16 people will be partitioned into 4 indistinguishable 4-person committees. Each committee will have one chairperson and one secretary. The number of different ways to make these assignments can be written as $3^r \\cdot M$, where $r$ and $M$ are positive integers and $M$ is not divisible by $3$. What is $r$?",
+          "choices": [
+            "(A) 5",
+            "(B) 6",
+            "(C) 7",
+            "(D) 8",
+            "(E) 9"
+          ]
+        },
+        {
+          "number": 23,
+          "problem": "The Fibonacci numbers are defined by $F_1 = 1$, $F_2 = 1$, and $F_n = F_{n-1} + F_{n-2}$ for $n \\geq 3$. What is $(F_2/F_1 + F_4/F_2 + F_6/F_3 + \\dots + F_{20}/F_{10})$?",
+          "choices": [
+            "(A) 318",
+            "(B) 319",
+            "(C) 320",
+            "(D) 321",
+            "(E) 322"
+          ]
+        },
+        {
+          "number": 24,
+          "problem": "Let $P(m) = \\frac{m}{2} + \\frac{m^2}{4} + \\frac{m^4}{8} + \\frac{m^8}{8}$. How many of the values $P(2022)$, $P(2023)$, $P(2024)$, and $P(2025)$ are integers?",
+          "choices": [
+            "(A) 0",
+            "(B) 1",
+            "(C) 2",
+            "(D) 3",
+            "(E) 4"
+          ]
+        }
+      ]
+    },
+    {
+      "test": "AMC10A_2023",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "Cities A and B are 45 miles apart. Alicia lives in A and Beth lives in B. Alicia bikes toward B at 18 miles per hour. Leaving at the same time, Beth bikes toward A at 12 miles per hour. How many miles from City A will they be when they meet?",
+          "choices": [
+            "(A) 20",
+            "(B) 24",
+            "(C) 25",
+            "(D) 26",
+            "(E) 27"
+          ]
+        },
+        {
+          "number": 2,
+          "problem": "The weight of $\\frac{1}{3}$ of a large pizza together with $3\\frac{1}{2}$ cups of orange slices is the same as the weight of $\\frac{3}{4}$ of a large pizza together with $\\frac{1}{2}$ cup of orange slices. A cup of orange slices weighs $\\frac{1}{4}$ pound. What is the weight, in pounds, of a large pizza?",
+          "choices": [
+            "(A) 1 4/5",
+            "(B) 2",
+            "(C) 2 2/5",
+            "(D) 3",
+            "(E) 3 3/5"
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "How many positive perfect squares less than $2023$ are divisible by $5$?",
+          "choices": [
+            "(A) 8",
+            "(B) 9",
+            "(C) 10",
+            "(D) 11",
+            "(E) 12"
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "A quadrilateral has all integer side lengths, a perimeter of $26$, and one side of length $4$. What is the greatest possible length of one side of this quadrilateral?",
+          "choices": [
+            "(A) 9",
+            "(B) 10",
+            "(C) 11",
+            "(D) 12",
+            "(E) 13"
+          ]
+        },
+        {
+          "number": 5,
+          "problem": "How many digits are in the base-ten representation of $8^5 \\cdot 5^{10} \\cdot 15^5$?",
+          "choices": [
+            "(A) 14",
+            "(B) 15",
+            "(C) 16",
+            "(D) 17",
+            "(E) 18"
+          ]
+        },
+        {
+          "number": 6,
+          "problem": "An integer is assigned to each vertex of a cube. The value of an edge is defined as the sum of the values of the two vertices it touches, and the value of a face is defined as the sum of the values of the four edges surrounding it. The value of the cube is the sum of the values of its six faces. If the sum of the integers on the vertices is $21$, what is the value of the cube?",
+          "choices": [
+            "(A) 42",
+            "(B) 63",
+            "(C) 84",
+            "(D) 126",
+            "(E) 252"
+          ]
+        },
+        {
+          "number": 7,
+          "problem": "Janet rolls a standard 6-sided die 4 times and keeps a running total. What is the probability that at some point, her running total is exactly $3$?",
+          "choices": [
+            "(A) 2/9",
+            "(B) 49/216",
+            "(C) 25/108",
+            "(D) 17/72",
+            "(E) 13/54"
+          ]
+        },
+        {
+          "number": 8,
+          "problem": "The Breadus scale is a linear temperature scale. $110^\\circ\\text{F}$ is $0^\\circ$ Breadus, and $350^\\circ\\text{F}$ is $100^\\circ$ Breadus. Bread is done when it reaches $200^\\circ\\text{F}$. What is this temperature on the Breadus scale?",
+          "choices": [
+            "(A) 33",
+            "(B) 34.5",
+            "(C) 36",
+            "(D) 37.5",
+            "(E) 39"
+          ]
+        },
+        {
+          "number": 9,
+          "problem": "A digital display shows dates in YYYYMMDD format. How many dates in 2023 have each digit appearing an even number of times in the display?",
+          "choices": [
+            "(A) 5",
+            "(B) 6",
+            "(C) 7",
+            "(D) 8",
+            "(E) 9"
+          ]
+        },
+        {
+          "number": 10,
+          "problem": "Maureen tracks the mean of her quiz scores. If she scores $11$ on the next quiz, her mean increases by $1$. If she scores $11$ on each of the next $3$ quizzes, her mean increases by $2$. What is her current mean?",
+          "choices": [
+            "(A) 4",
+            "(B) 5",
+            "(C) 6",
+            "(D) 7",
+            "(E) 8"
+          ]
+        },
+        {
+          "number": 12,
+          "problem": "How many 3-digit positive integers $N$ satisfy both: $N$ divisible by $7$, and the reversal of $N$ is divisible by $5$?",
+          "choices": [
+            "(A) 13",
+            "(B) 14",
+            "(C) 15",
+            "(D) 16",
+            "(E) 17"
+          ]
+        },
+        {
+          "number": 13,
+          "problem": "Abdul and Chiang stand $48$ feet apart. Bharat is placed so that the angle between his sightlines to Abdul and Chiang is $60^\\circ$. What is the square of the distance between Abdul and Bharat?",
+          "choices": [
+            "(A) 1728",
+            "(B) 2601",
+            "(C) 3072",
+            "(D) 4608",
+            "(E) 6912"
+          ]
+        },
+        {
+          "number": 14,
+          "problem": "A number is chosen at random from the first $100$ positive integers. A positive divisor is then randomly selected. What is the probability that the divisor is divisible by $11$?",
+          "choices": [
+            "(A) 4/100",
+            "(B) 9/200",
+            "(C) 1/20",
+            "(D) 11/200",
+            "(E) 3/50"
+          ]
+        },
+        {
+          "number": 16,
+          "problem": "In a table tennis tournament each participant played each other once. There were twice as many right-handed players as left-handed. Left-handed players won $40\\%$ more games than right-handed ones. What is the total number of games played?",
+          "choices": [
+            "(A) 15",
+            "(B) 36",
+            "(C) 45",
+            "(D) 48",
+            "(E) 66"
+          ]
+        },
+        {
+          "number": 18,
+          "problem": "A rhombic dodecahedron has $12$ rhombus faces. At each vertex, either $3$ or $4$ edges meet. How many vertices have exactly $3$ edges meet?",
+          "choices": [
+            "(A) 5",
+            "(B) 6",
+            "(C) 7",
+            "(D) 8",
+            "(E) 9"
+          ]
+        },
+        {
+          "number": 19,
+          "problem": "The segment $AB$ from $(1,2)$ to $(3,3)$ is rotated to $A'(3,1)$ and $B'(4,3)$ about point $P(r, s)$. What is $|r - s|$?",
+          "choices": [
+            "(A) 1/4",
+            "(B) 1/2",
+            "(C) 3/4",
+            "(D) 2/3",
+            "(E) 1"
+          ]
+        },
+        {
+          "number": 21,
+          "problem": "Let $P(x)$ be a polynomial of minimal degree such that:\n$P(x) - 1$ has root $1$,\n$P(x-2)$ has root $2$,\n$P(3x)$ has root $3$,\n$4P(x)$ has root $4$.\nAll roots but one are integers. The non-integer root is $\\frac{m}{n}$ in lowest terms. What is $m + n$?",
+          "choices": [
+            "(A) 41",
+            "(B) 43",
+            "(C) 45",
+            "(D) 47",
+            "(E) 49"
+          ]
+        },
+        {
+          "number": 23,
+          "problem": "N is a positive integer with complementary divisors that differ by $20$ and another pair that differ by $23$. What is the sum of the digits of $N$?",
+          "choices": [
+            "(A) 9",
+            "(B) 13",
+            "(C) 15",
+            "(D) 17",
+            "(E) 19"
+          ]
+        },
+        {
+          "number": 25,
+          "problem": "Q, R, and S are distinct vertices of a regular icosahedron. What is the probability that the distance from $Q$ to $R$ is greater than the distance from $R$ to $S$?",
+          "choices": [
+            "(A) 7/22",
+            "(B) 1/3",
+            "(C) 3/8",
+            "(D) 5/12",
+            "(E) 1/2"
+          ]
+        }
+      ]
+    },
+    {
+      "test": "AMC10B_2023",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "Mrs. Jones is pouring orange juice into four identical glasses for her four sons. She fills the first three glasses completely but runs out of juice when the fourth glass is only $\\frac{1}{3}$ full. What fraction of a glass must Mrs. Jones pour from each of the first three glasses into the fourth glass so that all four glasses will have the same amount of juice?",
+          "choices": [
+            "(A) 1/12",
+            "(B) 1/4",
+            "(C) 1/6",
+            "(D) 1/8",
+            "(E) 2/9"
+          ]
+        },
+        {
+          "number": 2,
+          "problem": "Carlos went to a sports store to buy running shoes. Running shoes were on sale, with prices reduced by $20\\%$ on every pair of shoes. Carlos also knew that he had to pay a $7.5\\%$ sales tax on the discounted price. He had $43$. What is the original (before discount) price of the most expensive shoes he could afford to buy?",
+          "choices": [
+            "(A) 46",
+            "(B) 50",
+            "(C) 48",
+            "(D) 47",
+            "(E) 49"
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "A $3$-$4$-$5$ right triangle is inscribed in circle A, and a $5$-$12$-$13$ right triangle is inscribed in circle B. What is the ratio of the area of circle A to the area of circle B?",
+          "choices": [
+            "(A) 9/25",
+            "(B) 1/9",
+            "(C) 1/5",
+            "(D) 25/169",
+            "(E) 4/25"
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "Jackson's paintbrush makes a narrow strip with a width of $6.5$ millimeters. Jackson has enough paint to make a strip $25$ meters long. How many square centimeters of paper could Jackson cover with paint?",
+          "choices": [
+            "(A) 162,500",
+            "(B) 162.5",
+            "(C) 1,625",
+            "(D) 1,625,000",
+            "(E) 16,250"
+          ]
+        },
+        {
+          "number": 5,
+          "problem": "Maddy and Lara see a list of numbers written on a blackboard. Maddy adds $3$ to each number in the list and finds that the sum of her new numbers is $45$. Lara multiplies each number in the list by $3$ and finds that the sum of her new numbers is also $45$. How many numbers are written on the blackboard?",
+          "choices": [
+            "(A) 10",
+            "(B) 5",
+            "(C) 6",
+            "(D) 8",
+            "(E) 9"
+          ]
+        },
+        {
+          "number": 6,
+          "problem": "Let $L_1 = 1$, $L_2 = 3$, and $L_{n+2} = L_{n+1} + L_n$ for $n \\geq 1$. How many terms in the sequence $L_1, L_2, \\dots, L_{2023}$ are even?",
+          "choices": [
+            "(A) 673",
+            "(B) 1011",
+            "(C) 675",
+            "(D) 1010",
+            "(E) 674"
+          ]
+        },
+        {
+          "number": 8,
+          "problem": "What is the units digit of $2022^{2023} + 2023^{2022}$?",
+          "choices": [
+            "(A) 7",
+            "(B) 1",
+            "(C) 9",
+            "(D) 5",
+            "(E) 3"
+          ]
+        },
+        {
+          "number": 9,
+          "problem": "The numbers $16$ and $25$ are a pair of consecutive positive squares whose difference is $9$. How many pairs of consecutive positive perfect squares have a difference of less than or equal to $2023$?",
+          "choices": [
+            "(A) 674",
+            "(B) 1011",
+            "(C) 1010",
+            "(D) 2019",
+            "(E) 2017"
+          ]
+        },
+        {
+          "number": 10,
+          "problem": "You are playing a game. A $2\\times1$ rectangle covers two adjacent squares (oriented either horizontally or vertically) of a $3\\times3$ grid of squares, but you are not told which two squares are covered. Your goal is to find at least one square that is covered by the rectangle. A 'turn' consists of you guessing a square, after which you are told whether that square is covered by the hidden rectangle. What is the minimum number of turns you need to ensure that at least one of your guessed squares is covered by the rectangle?",
+          "choices": [
+            "(A) 3",
+            "(B) 5",
+            "(C) 4",
+            "(D) 8",
+            "(E) 6"
+          ]
+        },
+        {
+          "number": 11,
+          "problem": "Suzanne withdrew $800$ from the bank. The teller gave her this amount using $20$ bills, $50$ bills, and $100$ bills, with at least one of each denomination. How many different collections of bills could Suzanne have received?",
+          "choices": [
+            "(A) 45",
+            "(B) 21",
+            "(C) 36",
+            "(D) 28",
+            "(E) 32"
+          ]
+        },
+        {
+          "number": 12,
+          "problem": "When the roots of the polynomial $P(x) = (x-1)^1(x-2)^2(x-3)^3\\cdots(x-10)^{10}$ are removed from the number line, what remains is the union of $11$ disjoint open intervals. On how many of these intervals is $P(x)$ positive?",
+          "choices": [
+            "(A) 3",
+            "(B) 7",
+            "(C) 6",
+            "(D) 4",
+            "(E) 5"
+          ]
+        },
+        {
+          "number": 13,
+          "problem": "What is the area of the region in the coordinate plane defined by $||x|-1| + ||y|-1| \\leq 1$?",
+          "choices": [
+            "(A) 2",
+            "(B) 8",
+            "(C) 4",
+            "(D) 15",
+            "(E) 12"
+          ]
+        },
+        {
+          "number": 14,
+          "problem": "How many ordered pairs of integers $(m,n)$ satisfy the equation $m^2 + mn + n^2 = m^2n^2$?",
+          "choices": [
+            "(A) 7",
+            "(B) 1",
+            "(C) 3",
+            "(D) 6",
+            "(E) 5"
+          ]
+        },
+        {
+          "number": 15,
+          "problem": "What is the least positive integer $m$ such that $m \\cdot 2! \\cdot 3! \\cdot 4! \\cdots 16!$ is a perfect square?",
+          "choices": [
+            "(A) 30",
+            "(B) 30030",
+            "(C) 70",
+            "(D) 1430",
+            "(E) 1001"
+          ]
+        },
+        {
+          "number": 16,
+          "problem": "Define an upno as a number with $2$ or more digits whose digits increase left to right, and a downno as a number with $2$ or more digits whose digits decrease left to right. Let $U$ be the total number of upnos and $D$ the total number of downnos. What is $|U-D|$?",
+          "choices": [
+            "(A) 512",
+            "(B) 10",
+            "(C) 0",
+            "(D) 9",
+            "(E) 511"
+          ]
+        },
+        {
+          "number": 17,
+          "problem": "A rectangular box $P$ has distinct edge lengths $a$, $b$, and $c$. The sum of the lengths of all $12$ edges is $13$, the sum of the areas of all $6$ faces is $\\frac{11}{2}$, and the volume is $\\frac{1}{2}$. What is the length of the longest interior diagonal?",
+          "choices": [
+            "(A) 2",
+            "(B) 3/8",
+            "(C) 9/8",
+            "(D) 9/4",
+            "(E) 3/2"
+          ]
+        },
+        {
+          "number": 18,
+          "problem": "Suppose $a$, $b$, and $c$ are positive integers such that $\\frac{a}{14} + \\frac{b}{15} = \\frac{c}{210}$. Which of the following statements are necessarily true?\\nI. If $\\gcd(a,14)=1$ or $\\gcd(b,15)=1$ or both, then $\\gcd(c,210)=1$.\\nII. If $\\gcd(c,210)=1$, then $\\gcd(a,14)=1$ or $\\gcd(b,15)=1$ or both.\\nIII. $\\gcd(c,210)=1$ if and only if $\\gcd(a,14)=\\gcd(b,15)=1$.",
+          "choices": [
+            "(A) I, II, and III",
+            "(B) I only",
+            "(C) I and II only",
+            "(D) III only",
+            "(E) II and III only"
+          ]
+        },
+        {
+          "number": 19,
+          "problem": "Sonya the frog hops to a point uniformly at random in the square $[0,6]\\times[0,6]$. She then hops in a random direction (N/S/E/W) by a random distance from $[0,1]$. What is the probability she lands outside the square?",
+          "choices": [
+            "(A) 1/6",
+            "(B) 1/12",
+            "(C) 1/4",
+            "(D) 1/10",
+            "(E) 1/9"
+          ]
+        },
+        {
+          "number": 21,
+          "problem": "Each of $2023$ balls is randomly placed into one of $3$ bins. Which of the following is closest to the probability that each bin has an odd number of balls?",
+          "choices": [
+            "(A) 2/3",
+            "(B) 3/10",
+            "(C) 1/2",
+            "(D) 1/3",
+            "(E) 1/4"
+          ]
+        },
+        {
+          "number": 22,
+          "problem": "How many distinct values of $x$ satisfy $\\lfloor x \\rfloor^2 - 3x + 2 = 0$?",
+          "choices": [
+            "(A) an infinite number",
+            "(B) 4",
+            "(C) 2",
+            "(D) 3",
+            "(E) 0"
+          ]
+        },
+        {
+          "number": 23,
+          "problem": "An arithmetic sequence with $n \\geq 3$ terms, starting term $a$, and common difference $d > 1$, has all but one term correct. One term is off by $1$, and the total sum is $222$. What is $a + d + n$?",
+          "choices": [
+            "(A) 24",
+            "(B) 20",
+            "(C) 22",
+            "(D) 28",
+            "(E) 26"
+          ]
+        },
+        {
+          "number": 24,
+          "problem": "What is the perimeter of the boundary of the region consisting of all points $(2u-3w, v+4w)$ with $0 \\leq u \\leq 1$, $0 \\leq v \\leq 1$, $0 \\leq w \\leq 1$?",
+          "choices": [
+            "(A) 10√3",
+            "(B) 13",
+            "(C) 12",
+            "(D) 18",
+            "(E) 16"
+          ]
+        },
+        {
+          "number": 25,
+          "problem": "A regular pentagon with area $1 + √5$ is printed on paper. All five vertices are folded to the center, forming a smaller pentagon. What is the area of the new pentagon?",
+          "choices": [
+            "(A) 4−√5",
+            "(B) √5−1",
+            "(C) 8−3√5",
+            "(D) (√5+1)/2",
+            "(E) (2+√5)/3"
+          ]
+        }
+      ]
+    },
+    {
+      "test": "AMC10A_2022",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "What is the value of $3 + \\frac{1}{3 + \\frac{1}{3 + \\frac{1}{3}}}$?",
+          "choices": [
+            "(A) 31/10",
+            "(B) 49/15",
+            "(C) 33/10",
+            "(D) 109/33",
+            "(E) 15/4"
+          ]
+        },
+        {
+          "number": 2,
+          "problem": "Mike cycled $15$ laps in $57$ minutes. Assume he cycled at a constant speed throughout. Approximately how many laps did he complete in the first $27$ minutes?",
+          "choices": [
+            "(A) 5",
+            "(B) 7",
+            "(C) 9",
+            "(D) 11",
+            "(E) 13"
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "The sum of three numbers is $96$. The first number is $6$ times the third number, and the third number is $40$ less than the second number. What is the absolute value of the difference between the first and second numbers?",
+          "choices": [
+            "(A) 1",
+            "(B) 2",
+            "(C) 3",
+            "(D) 4",
+            "(E) 5"
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "In some countries, automobile fuel efficiency is measured in liters per $100$ kilometers while other countries use miles per gallon. Suppose that $1$ kilometer equals $m$ miles, and $1$ gallon equals $l$ liters. Which of the following gives the fuel efficiency in liters per $100$ kilometers for a car that gets $x$ miles per gallon?",
+          "choices": [
+            "(A) \\frac{x}{100lm}",
+            "(B) \\frac{xlm}{100}",
+            "(C) \\frac{lm}{100x}",
+            "(D) \\frac{100}{xlm}",
+            "(E) \\frac{100lm}{x}"
+          ]
+        },
+        {
+          "number": 6,
+          "problem": "Which expression is equal to $|a-2-\\sqrt{(a-1)^2}|$ for $a < 0$?",
+          "choices": [
+            "(A) 3-2a",
+            "(B) 1-a",
+            "(C) 1",
+            "(D) a+1",
+            "(E) 3"
+          ]
+        },
+        {
+          "number": 7,
+          "problem": "The least common multiple of a positive integer $n$ and $18$ is $180$, and the greatest common divisor of $n$ and $45$ is $15$. What is the sum of the digits of $n$?",
+          "choices": [
+            "(A) 3",
+            "(B) 6",
+            "(C) 8",
+            "(D) 9",
+            "(E) 12"
+          ]
+        },
+        {
+          "number": 8,
+          "problem": "A data set consists of $6$ (not distinct) positive integers: $1$, $7$, $5$, $2$, $5$, and $X$. The average (arithmetic mean) of the $6$ numbers equals a value in the data set. What is the sum of all possible values of $X$?",
+          "choices": [
+            "(A) 10",
+            "(B) 26",
+            "(C) 32",
+            "(D) 36",
+            "(E) 40"
+          ]
+        },
+        {
+          "number": 11,
+          "problem": "Ted mistakenly wrote $2^m \\cdot \\sqrt{\\frac{1}{4096}}$ as $2 \\cdot \\sqrt[{m}]{\\frac{1}{4096}}$. What is the sum of all real numbers $m$ for which these two expressions have the same value?",
+          "choices": [
+            "(A) 5",
+            "(B) 6",
+            "(C) 7",
+            "(D) 8",
+            "(E) 9"
+          ]
+        },
+        {
+          "number": 12,
+          "problem": "On Halloween, $31$ children walked into the principal's office asking for candy. They can be classified into three types: some always lie; some always tell the truth; and some alternately lie and tell the truth. The alternaters arbitrarily choose their first response, either a lie or the truth, but each subsequent statement has the opposite truth value from its predecessor. The principal asked everyone the same three questions in this order. 'Are you a truth-teller?' The principal gave a piece of candy to each of the $22$ children who answered yes. 'Are you an alternater?' The principal gave a piece of candy to each of the $15$ children who answered yes. 'Are you a liar?' The principal gave a piece of candy to each of the $9$ children who answered yes. How many pieces of candy in all did the principal give to the children who always tell the truth?",
+          "choices": [
+            "(A) 7",
+            "(B) 12",
+            "(C) 21",
+            "(D) 27",
+            "(E) 31"
+          ]
+        },
+        {
+          "number": 14,
+          "problem": "How many ways are there to split the integers $1$ through $14$ into $7$ pairs such that in each pair, the greater number is at least $2$ times the lesser number?",
+          "choices": [
+            "(A) 108",
+            "(B) 120",
+            "(C) 126",
+            "(D) 132",
+            "(E) 144"
+          ]
+        },
+        {
+          "number": 16,
+          "problem": "The roots of the polynomial $10x^3 - 39x^2 + 29x - 6$ are the height, length, and width of a rectangular box (right rectangular prism). A new rectangular box is formed by lengthening each edge of the original box by $2$ units. What is the volume of the new box?",
+          "choices": [
+            "(A) 24/5",
+            "(B) 42/5",
+            "(C) 81/5",
+            "(D) 30",
+            "(E) 48"
+          ]
+        },
+        {
+          "number": 17,
+          "problem": "How many three-digit positive integers $abc$ are there whose nonzero digits $a$, $b$, and $c$ satisfy $$0.abcabc\\dots = \\frac{1}{3}(0.a+0.b+0.c)?$$",
+          "choices": [
+            "(A) 9",
+            "(B) 10",
+            "(C) 11",
+            "(D) 13",
+            "(E) 14"
+          ]
+        },
+        {
+          "number": 18,
+          "problem": "Let $T_k$ be the transformation of the coordinate plane that first rotates the plane $k$ degrees counterclockwise around the origin and then reflects the plane across the $y$-axis. What is the least positive integer $n$ such that performing the sequence of transformations $T_1, T_2, T_3,\\dots,T_n$ returns the point $(1, 0)$ back to itself?",
+          "choices": [
+            "(A) 359",
+            "(B) 360",
+            "(C) 719",
+            "(D) 720",
+            "(E) 721"
+          ]
+        },
+        {
+          "number": 19,
+          "problem": "Define $L_n$ as the least common multiple of all the integers from $1$ to $n$ inclusive. There is a unique integer $h$ such that $$1 + \\frac{1}{2} + \\frac{1}{3} + \\dots + \\frac{1}{17} = \\frac{h}{L_{17}}.$$ What is the remainder when $h$ is divided by $17$?",
+          "choices": [
+            "(A) 1",
+            "(B) 3",
+            "(C) 5",
+            "(D) 7",
+            "(E) 9"
+          ]
+        },
+        {
+          "number": 20,
+          "problem": "A four-term sequence is formed by adding each term of a four-term arithmetic sequence of positive integers to the corresponding term of a four-term geometric sequence of positive integers. The first three terms of the resulting four-term sequence are $57$, $60$, and $91$. What is the fourth term of this sequence?",
+          "choices": [
+            "(A) 190",
+            "(B) 194",
+            "(C) 198",
+            "(D) 202",
+            "(E) 206"
+          ]
+        },
+        {
+          "number": 24,
+          "problem": "How many strings of length $5$ formed from the digits $0, 1, 2, 3, 4$ are there such that for each $j \\in \\{1,2,3,4\\}$, at least $j$ of the digits are less than $j$?",
+          "choices": [
+            "(A) 500",
+            "(B) 625",
+            "(C) 1089",
+            "(D) 1199",
+            "(E) 1296"
+          ]
+        }
+      ]
+    },
+    {
+      "test": "AMC10A_2023",
+      "problems": [
+        {
+          "number": 1,
+          "problem": "Define $x\\circ y$ to be $|x-y|$ for all real numbers $x$ and $y$. What is the value of $(1\\circ(2\\circ3))-((1\\circ2)\\circ3)$?",
+          "choices": [
+            "(A) $-2$",
+            "(B) $-1$",
+            "(C) $0$",
+            "(D) $1$",
+            "(E) $2$"
+          ]
+        },
+        {
+          "number": 3,
+          "problem": "How many three-digit positive integers have an odd number of even digits?",
+          "choices": [
+            "(A) 150",
+            "(B) 250",
+            "(C) 350",
+            "(D) 450",
+            "(E) 550"
+          ]
+        },
+        {
+          "number": 4,
+          "problem": "A donkey suffers an attack of hiccups and the first hiccup happens at $4:00$ one afternoon. Suppose that the donkey hiccups regularly every $5$ seconds. At what time does the donkey’s $700$th hiccup occur?",
+          "choices": [
+            "(A) 15 seconds after 4:58",
+            "(B) 20 seconds after 4:58",
+            "(C) 25 seconds after 4:58",
+            "(D) 30 seconds after 4:58",
+            "(E) 35 seconds after 4:58"
+          ]
+        },
+        {
+          "number": 5,
+          "problem": "What is the value of $$\\frac{(1+\\frac{1}{3})(1+\\frac{1}{5})(1+\\frac{1}{7})}{\\sqrt{(1-\\frac{1}{3^2})(1-\\frac{1}{5^2})(1-\\frac{1}{7^2})}}?$$",
+          "choices": [
+            "(A) $\\sqrt{3}$",
+            "(B) $2$",
+            "(C) $\\sqrt{15}$",
+            "(D) $4$",
+            "(E) $\\sqrt{105}$"
+          ]
+        },
+        {
+          "number": 6,
+          "problem": "How many of the first ten numbers of the sequence $121$, $11211$, $1112111$, $\\dots$ are prime numbers?",
+          "choices": [
+            "(A) 0",
+            "(B) 1",
+            "(C) 2",
+            "(D) 3",
+            "(E) 4"
+          ]
+        },
+        {
+          "number": 7,
+          "problem": "For how many values of the constant $k$ will the polynomial $x^2 + kx + 36$ have two distinct integer roots?",
+          "choices": [
+            "(A) 6",
+            "(B) 8",
+            "(C) 9",
+            "(D) 14",
+            "(E) 16"
+          ]
+        },
+        {
+          "number": 8,
+          "problem": "Consider the following $100$ sets of $10$ elements each: $\\{1-10\\}$, $\\{11-20\\}$, $\\dots$, $\\{991-1000\\}$. How many of these sets contain exactly two multiples of $7$?",
+          "choices": [
+            "(A) 40",
+            "(B) 42",
+            "(C) 43",
+            "(D) 49",
+            "(E) 50"
+          ]
+        },
+        {
+          "number": 9,
+          "problem": "The sum $$\\frac{1}{2!} + \\frac{2}{3!} + \\frac{3}{4!} + \\dots + \\frac{2021}{2022!}$$ can be expressed as $a - \\frac{1}{b!}$. What is $a + b$?",
+          "choices": [
+            "(A) 2020",
+            "(B) 2021",
+            "(C) 2022",
+            "(D) 2023",
+            "(E) 2024"
+          ]
+        },
+        {
+          "number": 10,
+          "problem": "Camila writes down five positive integers. The unique mode is $2$ greater than the median, and the median is $2$ greater than the mean. What is the least possible value of the mode?",
+          "choices": [
+            "(A) 5",
+            "(B) 7",
+            "(C) 9",
+            "(D) 11",
+            "(E) 13"
+          ]
+        },
+        {
+          "number": 11,
+          "problem": "Which statement is logically equivalent to \"No school bigger than Euclid HS sold more T-shirts than Euclid HS\"?",
+          "choices": [
+            "(A) All schools smaller than Euclid HS sold fewer T-shirts than Euclid HS.",
+            "(B) No school that sold more T-shirts than Euclid HS is bigger than Euclid HS.",
+            "(C) All schools bigger than Euclid HS sold fewer T-shirts than Euclid HS.",
+            "(D) All schools that sold fewer T-shirts than Euclid HS are smaller than Euclid HS.",
+            "(E) All schools smaller than Euclid HS sold more T-shirts than Euclid HS."
+          ]
+        },
+        {
+          "number": 12,
+          "problem": "A pair of fair $6$-sided dice is rolled $n$ times. What is the least value of $n$ such that the probability of getting sum $7$ at least once is greater than $\\frac{1}{2}$?",
+          "choices": [
+            "(A) 2",
+            "(B) 3",
+            "(C) 4",
+            "(D) 5",
+            "(E) 6"
+          ]
+        },
+        {
+          "number": 13,
+          "problem": "The positive difference between a pair of twin primes is $2$, and the difference of their cubes is $31106$. What is the sum of the digits of the least prime greater than these two?",
+          "choices": [
+            "(A) 8",
+            "(B) 10",
+            "(C) 11",
+            "(D) 13",
+            "(E) 16"
+          ]
+        },
+        {
+          "number": 14,
+          "problem": "Let $S$ be a subset of $\\{1, \\dots, 25\\}$ such that the sum of any two (not necessarily distinct) elements is never in $S$. What is the maximum number of elements $S$ may contain?",
+          "choices": [
+            "(A) 12",
+            "(B) 13",
+            "(C) 14",
+            "(D) 15",
+            "(E) 16"
+          ]
+        },
+        {
+          "number": 15,
+          "problem": "Let $S_n$ be the sum of the first $n$ terms of an arithmetic sequence with common difference $2$. If $\\frac{S_{3n}}{S_n}$ is constant, what is $S_{20}$?",
+          "choices": [
+            "(A) 340",
+            "(B) 360",
+            "(C) 380",
+            "(D) 400",
+            "(E) 420"
+          ]
+        },
+        {
+          "number": 17,
+          "problem": "One of the following is not divisible by any prime $< 10$. Which is it?",
+          "choices": [
+            "(A) $2^{606} - 1$",
+            "(B) $2^{606} + 1$",
+            "(C) $2^{607} - 1$",
+            "(D) $2^{607} + 1$",
+            "(E) $2^{607} + 3^{607}$"
+          ]
+        },
+        {
+          "number": 18,
+          "problem": "Consider $3$ equations $a_1x+b_1y+c_1z=0$, $a_2x+b_2y+c_2z=0$, $a_3x+b_3y+c_3z=0$ with coefficients $0$ or $1$ and a nontrivial solution. How many such systems exist?",
+          "choices": [
+            "(A) 302",
+            "(B) 338",
+            "(C) 340",
+            "(D) 343",
+            "(E) 344"
+          ]
+        },
+        {
+          "number": 21,
+          "problem": "Let $P(x)$ be a polynomial with rational coefficients such that $$P(x) \\equiv x+2 \\pmod{x^2+x+1}$$ and $$P(x) \\equiv 2x+1 \\pmod{x^2+1}.$$ What is the sum of the squares of the coefficients of the least-degree $P(x)$?",
+          "choices": [
+            "(A) 10",
+            "(B) 13",
+            "(C) 19",
+            "(D) 20",
+            "(E) 23"
+          ]
+        },
+        {
+          "number": 23,
+          "problem": "Ant Amelia crawls in steps, randomly choosing $t_n$ and $x_n$ in $(0,1)$, moving $x_n$ units over $t_n$ minutes. If total time exceeds $1$ minute, she stops. What is the probability her final position is greater than $1$?",
+          "choices": [
+            "(A) 1/3",
+            "(B) 1/2",
+            "(C) 2/3",
+            "(D) 3/4",
+            "(E) 5/6"
+          ]
+        },
+        {
+          "number": 24,
+          "problem": "For functions $f$ satisfying $|f(x)-f(y)|\\leq \\frac{1}{2}|x-y|$ and $f(300)=f(900)$, what is the greatest possible value of $f(f(800))-f(f(400))$?",
+          "choices": [
+            "(A) 25",
+            "(B) 50",
+            "(C) 100",
+            "(D) 150",
+            "(E) 200"
+          ]
+        },
+        {
+          "number": 25,
+          "problem": "Let $x_0,x_1,x_2,\\dots$ be a sequence of $0$s and $1$s such that $7S_n \\equiv 1 \\pmod{2^n}$ for $S_n=\\sum_{k=0}^{n-1}x_k\\cdot2^k$. What is $x_{2019}+2x_{2020}+4x_{2021}+8x_{2022}$?",
+          "choices": [
+            "(A) 6",
+            "(B) 7",
+            "(C) 12",
+            "(D) 14",
+            "(E) 15"
+          ]
+        }
+      ]
+    }
+  ]
+  
