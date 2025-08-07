@@ -18,10 +18,13 @@ def generate_question(question_number, example_problems, previous_problems = [])
         choices: list[str]
 
     response = client.responses.parse(
-        model="gpt-4.1-nano",
+        model="gpt-5",
         instructions=system,
         input=user,
         text_format=Problem,
+        reasoning={
+            'effort':'high'
+        }
     )
 
     generated_problem = response.output_parsed.model_dump()
