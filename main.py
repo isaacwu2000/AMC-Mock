@@ -4,6 +4,13 @@ from model import generate_question
 # Formatting the problems
 non_bucketed_problems = get_sorted_problems('problems.json')
 example_problems = divide_problem_buckets(non_bucketed_problems)
+
+from prompt_setup import get_system_prompt
+previous_problems = [str({'number': 1, 'problem': 'What is the value of $9901 \\cdot 101 - 99 \\cdot 10101$?', 'choices': ['(A) 2', '(B) 20', '(C) 200', '(D) 202', '(E) 2020'], 'concepts': ['Algebra']})]
+print(get_system_prompt(2, example_problems))
+
+
+"""
 # Generating the mock test
 mock_test = []
 for i in range(1, 26):
@@ -25,4 +32,4 @@ with open('mocks/mock_test.txt', 'w') as mock:
     for problem in mock_test:
         mock.write(f"\\subsection*{{Problem {problem['number']}:}}")
         mock.write(f"{problem['solution']}")
-
+"""
