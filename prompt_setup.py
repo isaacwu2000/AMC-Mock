@@ -1,4 +1,4 @@
-def get_system_prompt(question_number, example_problems, previous_problems = []):
+def get_prompts(question_number, example_problems, previous_problems = []):
     # There is no geometry or diagrams because AI sucks at making diagrams
     # and is inconsistent in solving problems with them
     concept_distribution = {
@@ -41,4 +41,6 @@ def get_system_prompt(question_number, example_problems, previous_problems = [])
     for example_problem in example_problems[question_number]:
         system_prompt += "\n" + str(example_problem)
 
-    return system_prompt
+    user_prompt = f"Create a problem {question_number} for the AMC10 (2026) on the topic of {concept_distribution[question_number]}."
+    
+    return {"system":system_prompt, "user":user_prompt}

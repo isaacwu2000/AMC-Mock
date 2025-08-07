@@ -1,33 +1,32 @@
-def generate_question(question_number, problems):
-    
-    user_prompt = f"Create a problem {question_number} for the AMC10 (2026) on the topic of {concept_distribution[question_number]}."
+import json
+from pydantic import BaseModel
+from openai import OpenAI
+from prompt_setup import get_prompts
 
+def generate_question(question_number, example_problems, previous_problems = []):
+    prompts = get_prompts(question_number, example_problems, previous_problems = [])
+    system, user = prompts['system'], prompts['user']
 
-    # Inputting them into gemini and retunring the structured results
-    from dotenv import load_dotenv
-    import os
     load_dotenv()
+    client = OpenAI()
 
-    # Creating a class for the problem gemini creates
     class Problem(BaseModel):
         problem: str
         solution: str
         answer: str
         choices: list[str]
+        concepts: list[str]
 
-    from openai import OpenAI
-    client = OpenAI()
-
-    response = client.responses.create(
-        model="gpt-5",
-        input="Write a one-sentence bedtime story about a unicorn."
+    response = client.responses.create( # Todo: Set reasoning effort and verbostiy, use GPT-5 to otpimze prompt
+        model="gpt-4.1-nano", # Todo: chagne back to GPT 5 after seeing it works
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user}
+        ],
+        text_format=Problem
     )
 
-    generated_problem = response.output_text
-
-    # Convering the generated problem string into a dictionary
-    import json
-    generated_problem = json.loads(generated_problem)[0]
-    # Adding the question number to the problem dictionary
+    generated_problem = response.output_parsed
+    generated_problem = generated_problem[0]
     generated_problem["number"] = question_number 
     return generated_problem
