@@ -1,5 +1,5 @@
 def generate_question(question_number, problems):
-    # This is the problem distribution
+    # This is the problem distribution. There is not geometry because AI sucks at making diagrams and is inconsistent in solving
     concept_distribution = {
         1: "Algebra",
         2: "Algebra",
@@ -34,30 +34,19 @@ def generate_question(question_number, problems):
         example_problems += str(problem)
 
     # Setting the system and user prompts
-    system = f"You generate math competition-style questions suitable for the AMC10 using the concept of {concept_distribution[question_number]}."
-    system += " Your solutions must be CONCISE and EFFICIENT. Try NOT to use brute force or extremely long casework. "
-    system += " Do NOT create geometry problems or problems requiring diagrams."
-    system += " Provide the final answer explicitly as one of 'A', 'B', 'C', 'D', or 'E' EXACTLY."
-    system += " Make sure to box your solution."
-    system += " Write all mathematical expressions correctly in LaTeX, ensuring each expression starts with a \\."
-    system += " Make sure there is only one slash, not two, when wriing LaTeX commands"
-    system += " Present your solution clearly in bullet points using \\begin{itemize}, \\item, and \\end{itemize}."
+    
     if question_number <= 5:
         system += "Make your problem easy, solvable by a somewhat mathematically inclined 10th grade school student."
     elif 5 < question_number <= 10:
         system += "Make your problems of medium-easy difficulty, solvable by a fairly clever 10th student."
-    elif 10 < question_number <= 17:
+    elif 10 < question_number <= 18:
         system += "Make your problem of medium-hard difficulty, solvable by an experienced 10th grade mathlete."
-    elif 17 < question_number <= 25:
+    elif 18 < question_number <= 25:
         system += "Make your problems of hard to very-hard difficulty, solvable by a highly clever and experienced 10th grade mathlete who is well practiced."
     system += f" Create problems of the EXACT SAME DIFFICULTY (ie. solution complexity) and style to the following examples:\n{example_problems}\n"
-    
-    prompt = f"Generate a problem {question_number} for the AMC10. The year is 2025, feel free to use that."
+    prompt = f"Generate a problem {question_number} for the AMC10 (2026) on the topic of {concept_distribution[question_number]}"
 
     # Inputting them into gemini and retunring the structured results
-    from google import genai
-    from google.genai import types
-    from pydantic import BaseModel
     from dotenv import load_dotenv
     import os
     load_dotenv()
@@ -69,20 +58,19 @@ def generate_question(question_number, problems):
         answer: str
         choices: list[str]
 
-    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-    generated_problem = client.models.generate_content(
-        model="gemini-2.5-pro-exp-03-25", 
-        config= types.GenerateContentConfig(
-            response_mime_type = 'application/json',
-            response_schema = list[Problem],
-            system_instruction = system,
-            temperature=1
-        ),
-        contents=prompt
+    from openai import OpenAI
+    client = OpenAI()
+
+    response = client.responses.create(
+        model="gpt-5",
+        input="Write a one-sentence bedtime story about a unicorn."
     )
+
+    generated_problem = response.output_text
+
     # Convering the generated problem string into a dictionary
     import json
-    generated_problem = json.loads(generated_problem.text)[0]
+    generated_problem = json.loads(generated_problem)[0]
     # Adding the question number to the problem dictionary
     generated_problem["number"] = question_number 
     return generated_problem

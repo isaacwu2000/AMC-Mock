@@ -1,2 +1,2 @@
--q -U google-genai
-python-dotenv
+openai
+dotenv
