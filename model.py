@@ -23,7 +23,7 @@ def generate_question(question_number, example_problems, previous_problems = [])
         input=user,
         text_format=Problem,
         reasoning={
-            'effort':'high'
+            "effort": "high"
         }
     )
 
