@@ -1,11 +1,12 @@
 import json
 from pydantic import BaseModel
 from openai import OpenAI
+from dotenv import load_dotenv
 from prompt_setup import get_prompts
 
 def generate_question(question_number, example_problems, previous_problems = []):
-    prompts = get_prompts(question_number, example_problems, previous_problems = [])
-    system, user = prompts['system'], prompts['user']
+    prompt_info = get_prompts(question_number, example_problems, previous_problems = [])
+    system, user, topic = prompt_info['system'], prompt_info['user'], prompt_info['topic']
 
     load_dotenv()
     client = OpenAI()
@@ -15,18 +16,14 @@ def generate_question(question_number, example_problems, previous_problems = [])
         solution: str
         answer: str
         choices: list[str]
-        concepts: list[str]
 
-    response = client.responses.create( # Todo: Set reasoning effort and verbostiy, use GPT-5 to otpimze prompt
+    response = client.responses.parse( # Todo: Set reasoning effort and verbostiy, use GPT-5 to otpimze prompt
         model="gpt-4.1-nano", # Todo: chagne back to GPT 5 after seeing it works
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user}
-        ],
+        instructions=system,
+        input=user,
         text_format=Problem
     )
 
-    generated_problem = response.output_parsed
-    generated_problem = generated_problem[0]
-    generated_problem["number"] = question_number 
+    generated_problem = response.output_parsed.model_dump()
+    generated_problem["number"], generated_problem["topic"] = question_number, topic
     return generated_problem

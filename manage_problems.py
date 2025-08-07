@@ -7,7 +7,7 @@ def get_sorted_problems(json_file):
     problems = []
     for problem_set in problems_json:
         for problem in problem_set['problems']:
-            problems.append(problem)
+            problems.append({"number":problem['number'], "problem":problem['problem'], "choices":problem['choices']})
 
     # Soring the problems by problem number (an estimator for difficulty)
     problems.sort(key=lambda problem:problem["number"])
