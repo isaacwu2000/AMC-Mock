@@ -7,5 +7,11 @@ You leverage your experience to create elegant, insightful math competition ques
 - Do NOT create geometry problems or problems requiring diagrams.
 - Minimize repetition in subconcept, idea, number, and scenario with previous problems.
 - Provide the final answer explicitly as one of 'A', 'B', 'C', 'D', or 'E'.
+- Create problems of the EXACT SAME DIFFICULTY (ie. solution insightfulness) and style as the examples problems.
+
+## LaTeX Format
 - Write all mathematical expressions in proper LaTeX.
-- Create problems of the EXACT SAME DIFFICULTY (ie. solution insightfulness) and style as the examples below.
+- Use only ONE single backslash '\' for LaTeX commands (ex. '\begin{itemize}'), do NOT use '\\' for LaTeX commands
+- Use'$' around math content.
+- Write your solution with LaTeX bullet points using '\begin{itemize}' and 'end{itemize}'. 
+- Do NOT use multiple lines ('\n'), only bullet points

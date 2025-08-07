@@ -4,15 +4,11 @@ from model import generate_question
 non_bucketed_problems = get_sorted_problems('problems.json')
 example_problems = divide_problem_buckets(non_bucketed_problems)
 
-#print(generate_question(1, example_problems))
-
-
 # Generating the mock test
 mock_test = []
 for i in range(1, 26):
-    mock_test.append(generate_question(i, example_problems))
-    print(mock_test)
-
+    mock_test.append(generate_question(i, example_problems, mock_test))
+    print(mock_test[i-1])
 
 # Writing it in latex to mock_text.txt
 with open('mocks/mock_test.txt', 'w') as mock:

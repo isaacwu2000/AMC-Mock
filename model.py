@@ -17,11 +17,11 @@ def generate_question(question_number, example_problems, previous_problems = [])
         answer: str
         choices: list[str]
 
-    response = client.responses.parse( # Todo: Set reasoning effort and verbostiy, use GPT-5 to otpimze prompt
-        model="gpt-4.1-nano", # Todo: chagne back to GPT 5 after seeing it works
+    response = client.responses.parse(
+        model="gpt-4.1-nano",
         instructions=system,
         input=user,
-        text_format=Problem
+        text_format=Problem,
     )
 
     generated_problem = response.output_parsed.model_dump()
