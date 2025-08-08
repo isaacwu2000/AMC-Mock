@@ -43,4 +43,4 @@ def get_prompts(question_number, example_problems, previous_problems = []):
 
     user_prompt = f"Create a problem {question_number} for the AMC10 of the current year 2050 on the topic of {concept_distribution[question_number]}."
     
-    return {"system":system_prompt, "user":user_prompt, "topic":{concept_distribution[question_number]}}
+    return {"system":system_prompt, "user":user_prompt, "topic":concept_distribution[question_number]}
