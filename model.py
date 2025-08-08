@@ -22,9 +22,7 @@ def generate_question(question_number, example_problems, previous_problems = [])
         instructions=system,
         input=user,
         text_format=Problem,
-        reasoning={
-            "effort": "high"
-        }
+        reasoning={"effort": "high"}
     )
 
     generated_problem = response.output_parsed.model_dump()
