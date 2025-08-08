@@ -28,5 +28,5 @@ def generate_question(question_number, example_problems, previous_problems = [])
     )
 
     generated_problem = response.output_parsed.model_dump()
-    generated_problem["number"], generated_problem["topic"] = question_number, topic
+    generated_problem["number"], generated_problem["topic"] = question_number, topic.split(",")[0]
     return generated_problem
