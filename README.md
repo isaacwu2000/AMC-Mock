@@ -1,5 +1,5 @@
 # AMC-Mock
-This project uses GPT-5 to generate a mock AMC10 through context engineering and few-shot prompting (giving it example past AMC problems).
+This project uses GPT-5 to generate a mock AMC10 through context engineering, few-shot prompting (giving it example past AMC problems), and structured output.
 
 ## Example Mock
 ## Usage
