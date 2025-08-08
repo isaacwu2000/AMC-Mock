@@ -2,7 +2,7 @@
 This project uses GPT-5 to generate a mock AMC10 through context engineering, few-shot prompting (giving it example past AMC problems), and structured output.
 
 ## Example Mock
-<img width="857" height="697" alt="AMC_Mock_GPT-5" src="https://github.com/user-attachments/assets/c6b75be7-8949-4814-be60-367563c11a8d" />
+<img width="428.5" height="348.5" alt="AMC_Mock_GPT-5" src="https://github.com/user-attachments/assets/c6b75be7-8949-4814-be60-367563c11a8d" />
 Access pdf here: https://tiiny.host/manage.
 
 ## Usage
