@@ -2,7 +2,7 @@ def get_prompts(question_number, example_problems, previous_problems = []):
     # There is no geometry or diagrams because AI sucks at making diagrams
     # and is inconsistent in solving problems with them
     concept_distribution = {
-        1: "Algebra, symbolic problem",
+        1: "Algebra, numerical problem",
         2: "Algebra, word problem",
         3: "Number Theory, symbolic problem",
         4: "Counting and Probability, word problem",
