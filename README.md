@@ -2,8 +2,7 @@
 This project uses GPT-5 to generate a mock AMC10 through context engineering, few-shot prompting (giving it example past AMC problems), and structured output.
 
 ## Example Mock
-![amc-mock](https://github.com/user-attachments/assets/ca956ba6-29cb-490f-ab98-a5fcf1b56f04)
-Access pdf here: https://tiiny.host/manage.](https://amc10-mock-gpt-5.tiiny.site/
+Download the pdf here: [AMC10_Mock_GPT_5.pdf](https://github.com/user-attachments/files/21675239/AMC10_Mock_GPT_5.1.pdf)
 
 ## Usage
 You will need an OpenAI API key which you can obtain here: https://platform.openai.com/api-keys.
